@@ -28,18 +28,4 @@ public class Person {
 	public void showPersonInfo() {
 		System.out.println(name + "," + phoneNumber + "," + address);
 	}
-
-//	public void setPersonName(String name) {
-//		this.name = name;
-//
-//	}
-//
-//	public void setPhoneNumber(String phoneNumber) {
-//		this.phoneNumber = phoneNumber;
-//
-//	}
-//
-//	public void setAddress(String address) {
-//		this.address = address;
-//	}
 }

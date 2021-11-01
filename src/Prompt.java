@@ -15,23 +15,23 @@ public class Prompt {
 
 		System.out.printf("\n원하는 작업을 입력하십시오. : ");
 		Scanner s = new Scanner(System.in);
-		PrintAddBook p = new PrintAddBook();
+		AddBook addbook = new AddBook();
 
 		while (true) {
 			System.out.println("명령 : 1, 2, 3, 4, q");
 			String cmd = s.next();
 			switch (cmd) {
 			case "1":
-				p.addPerson(s);
+				addbook.add(s);
 				break;
 			case "2":
-				p.display();
+				addbook.display();
 				break;
 			case "3":
-				p.search(s);
+				addbook.search(s);
 				break;
 			case "4":
-				p.delete(s);
+				addbook.delete(s);
 				break;
 			case "q":
 				break;

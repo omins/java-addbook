@@ -1,15 +1,15 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class PrintAddBook {
+public class AddBook {
 
 	private ArrayList<Person> addBook;
 
-	public PrintAddBook() {
+	public AddBook() {
 		addBook = new ArrayList<Person>();
 	}
 
-	public void addPerson(Scanner s) {
+	public void add(Scanner s) {
 		System.out.printf("\n등록할 사람의 이름을 입력해주세요: \n");
 		String person = s.next();
 
